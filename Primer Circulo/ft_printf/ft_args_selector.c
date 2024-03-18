@@ -18,8 +18,8 @@ int ft_args_selector(const char *str, va_list args)
 
     print_count = 0;
     if (str == 'c')
-       print_count += ft_print_c(va_arg(args, char));
-    else if(str == 's')
+        print_count += ft_print_c(va_arg(args, char));
+    else if (str == 's')
         print_count += ft_print_s(va_arg(args, char *));
     else if (str == 'p')
         print_count += ft_print_p(va_arg(args, int), "0123456789ABCDEF");

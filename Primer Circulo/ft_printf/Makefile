@@ -13,7 +13,17 @@
 NAME	=	libftprintf.a
 INCLUDE	= 	printf.h
 
-SRC		=	\
+SRC		=	ft_args_selector.c\
+			ft_print_args.c\
+			ft_print_c.c\
+			ft_print_di.c\
+			ft_print_p.c\
+			ft_print_percernt.c\
+			ft_print_s.c\
+			ft_print_u.c\
+			ft_print_x.c\
+			ft_printf.c\
+			
 
 OBJ		=	${SRC:.c=.o}
 

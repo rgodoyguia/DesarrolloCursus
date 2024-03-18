@@ -19,8 +19,8 @@ int ft_print_di(int arg)
     print_count = 0;
     if (arg == -2147483648)
     {
-        ft_print_di(2);
-        ft_print_di(147483647);
+        ft_print_di(-2);
+        ft_print_di(147483648);
     }
     else if (arg < 0)
     {
